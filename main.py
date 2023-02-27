@@ -41,7 +41,6 @@ def run_alexa():
         song = command.replace('play', '')
         talk('playing' + song)
         pywhatkit.playonyt(song)
-        situations = False
     elif 'time' in command:
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk('Current time is' + time)
@@ -60,8 +59,6 @@ def run_alexa():
         talk(joke)
     elif 'open chrome' in command:
         subprocess.call("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
-        #import os
-        #os.startfile('C:\\myprogram.exe')
     else:
         talk('Please say that command again')
 
