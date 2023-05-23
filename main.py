@@ -65,3 +65,5 @@ def run_alexa():
 
 while situations:
     run_alexa()
+
+#i added new changes
