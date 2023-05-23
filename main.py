@@ -67,3 +67,4 @@ while situations:
     run_alexa()
 
 #i added new changes
+# i added to changes
